@@ -1,0 +1,45 @@
+<h1>O'tkazmalari tasdiqlang</h1>
+<form action="/payment/transfer-confirm" method="POST">
+  <p>
+    <label for="code">Kod</label>
+    <input type="number" name="code" id="code" required />
+  </p>
+  <p id="timer"></p>
+  <div id="resendCode" onclick="resendCode()" style="display: none;cursor:pointer">Qayta jonatish</div>
+  <button type="submit" id="sendButton">Jonatish</button>
+</form>
+<script>
+  async function resendCode(){
+    console.log('resendCode')
+    try{
+      const resultJSON = await fetch('http://localhost:4000/payment/resend-code', {
+        method: "POST",
+      })
+      const result = await resultJSON.text();
+      console.log(result)
+      timerReset();
+    }catch(err){
+      console.log(err)
+    }
+  }
+  function timerReset(){
+    let timer = 20;
+    const resendCodeElem = document.getElementById('resendCode')
+    const sendButtonElem = document.getElementById('sendButton')
+    const timerElem = document.getElementById('timer')
+    timerElem.style.display = 'block';
+    resendCodeElem.style.display = 'none';
+    sendButtonElem.style.display = 'block';
+    const timerInter = setInterval(()=>{
+      timerElem.innerText = timer
+      timer = timer-1;
+      if(timer<0){
+        timerElem.style.display = 'none';
+        clearInterval(timerInter);
+        resendCodeElem.style.display = 'block';
+        sendButtonElem.style.display = 'none';
+      }
+    }, 1000)
+  }
+  timerReset()
+</script>

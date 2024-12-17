@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0; }
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  position: relative;
+  border-radius: 0;
+  animation: transformBox 3s infinite ease-in-out; }
+
+@keyframes transformBox {
+  0% {
+    transform: scale(1) rotate(0deg);
+    border-radius: 0;
+    background-color: #3498db; }
+  25% {
+    transform: scale(1.2) rotate(45deg);
+    border-radius: 50%;
+    background-color: #e74c3c; }
+  50% {
+    transform: scale(1.5) rotate(90deg);
+    border-radius: 25%;
+    background-color: #2ecc71; }
+  75% {
+    transform: scale(1.2) rotate(135deg);
+    border-radius: 50%;
+    background-color: #9b59b6; }
+  100% {
+    transform: scale(1) rotate(180deg);
+    border-radius: 0;
+    background-color: #3498db; } }
+
+/*# sourceMappingURL=main.css.map */

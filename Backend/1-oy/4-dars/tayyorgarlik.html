@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./css/tayyorgarlik.css">
+</head>
+<body>
+    <div class="container">
+        <form class="ozim_qoysam_boladigan_nom">
+            <h1>Registration Form</h1>
+            <p>Fill out the form carefully for registration</p>
+            <div class="ozim_qoysam_boladi">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" placeholder="First name" required>
+            </div>
+            <div class="ozim_qoysam_boladi">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last name" placeholder="Lasr name" required>
+
+            </div>
+            <div class="ozim_qoysam_boladi">
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender" required>
+                    <option value="" disabled selected>Please Select</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div> 
+            <div class="ozim_qoysam_boladi">
+                <label for="email">Student E-mail</label>
+                <input type="email" id="email" name="email" placeholder="ex: myname@gmail.com" required>
+            </div>
+
+            <div class="ozim_qoysam_boladi">
+                <label for="student-id">Student ID</label>
+                <input type="text" id="student-id" name="student-id" placeholder="Student ID" required>
+            </div>
+
+            <div class="form-group">
+                <label for="classes">List of classes</label>
+                <select id="classes" name="classes" required>
+                    <option value="Class 1">Class 1</option>
+                    <option value="Class 2">Class 2</option>
+                    <option valie="Class 3">Class 3</option>
+                </select>
+            </div>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

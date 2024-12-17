@@ -1,0 +1,47 @@
+@use "../abstracts/variables" as vars;
+
+body.dark-mode {
+    background-color: vars.$dark-bg;
+    color: vars.$dark-text;
+}
+
+body.dark-mode .header {
+    &__button {
+        color: vars.$dark-text;
+    }
+}
+
+body.dark-mode .main__container__header__search-input {
+    background-color: vars.$dark-flag-box-bg;
+    color: vars.$dark-text;
+
+    &::placeholder {
+        color: vars.$dark-text;
+    }
+}
+
+body.dark-mode .main__container__header__dropdown__button {
+    background-color: vars.$dark-bg;
+    color: vars.$dark-text;
+    background-color: vars.$dark-flag-box-bg;
+    flex-direction: row-reverse;
+}
+
+body.dark-mode .main__container__header__dropdown__menu {
+    background-color: vars.$dark-bg;
+    color: vars.$dark-text;
+    border-color: vars.$dark-text;
+    :hover {
+        background-color: vars.$dark-dropdown-hover;
+    }
+}
+
+body.dark-mode .main__container__main__part__flags {
+    background-color: vars.$dark-flag-box-bg;
+
+    .main__container__main__part__flags__body__title,
+    .main__container__main__part__flags__body__info h3,
+    .main__container__main__part__flags__body__info p {
+        color: vars.$dark-text;
+    }
+}

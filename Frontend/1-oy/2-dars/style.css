@@ -1,0 +1,23 @@
+h1::first-letter{
+    color: red;
+}
+
+p::first-line {
+    color: red;
+    font-weight: bold;
+}
+
+div > a:nth-child(odd) {
+    color: red;
+}
+
+.rasm {
+    background-image: url("https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w960/f_auto/primary/ix5rdbcfnwifaf3oeozv");
+    width: 100%;
+    height: 1050px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+body{
+    margin: 0;
+}

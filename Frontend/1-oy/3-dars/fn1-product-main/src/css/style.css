@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  h1{
+    @apply text-2xl font-bold;
+  }
+}
+
+@layer components{
+  .btn-primary{
+    @apply px-7 bg-primary-500 text-white rounded py-2 font-bold;
+  }
+}
+
+.hero{
+  background: url(../images/hero.png) no-repeat center right / 600px;
+}

@@ -1,0 +1,35 @@
+// Abstracts
+@use "abstracts/variables" as vars; // O'zgaruvchilar uchun
+//! @use "abstracts/mixins"; // Funksiyalar hamda mixinlar uchun
+
+// Base
+@use "base/reset"; // Brauzer beradigan boshlang'ich stillarni chopish uchun
+@use "base/typography"; // Text, matnga oid stillar
+
+// Layout => Sahifaning umumiy bo'laklari uchun.
+@use "layout/header";
+//! @use "layout/footer";
+@use "layout/grid";
+
+// Components => Komponentlar
+//! @use "components/buttons";
+//! @use "components/cards";
+
+// Pages => Sahifalar
+//! @use "pages/home";
+//! @use "pages/about";
+
+// Themes => Temalar
+@use "themes/theme-dark";
+
+// Vendors => Tashqi kutubxonalar
+//! @use "vendors/bootstrap";
+
+body {
+    color: vars.$black;
+    background-color: vars.$white;
+    font-family: "Nunito Sans", "Tahoma";
+}
+
+
+

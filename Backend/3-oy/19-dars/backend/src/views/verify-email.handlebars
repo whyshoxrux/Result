@@ -1,0 +1,33 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email tasdiqlash</title>
+    <style>
+      body { font-family: Arial, sans-serif; background-color: #f4f4f4; color:
+      #333; } .container { max-width: 600px; margin: 0 auto; background-color:
+      #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0,
+      0, 0.1); } h1 { color: #4CAF50; text-align: center; } p { font-size: 16px;
+      line-height: 1.6; } .verify-button { display: inline-block; padding: 10px
+      20px; color: #fff; background-color: #4CAF50; text-decoration: none;
+      border-radius: 5px; text-align: center; font-size: 16px; margin-top: 20px;
+      display: block; width: fit-content; margin-left: auto; margin-right: auto;
+      } .verify-button:hover { background-color: #45a049; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Emailni tasdiqlang</h1>
+      <p>Hurmatli foydalanuvchi
+        {{first_name}}, biz sizning ro'yxatdan o'tganingizni tasdiqlash uchun
+        sizga bu emailni yuboryapmiz. Quyidagi tugmani bosib, email
+        manzilingizni tasdiqlashingiz mumkin:</p>
+      <a
+        href="http://localhost:4000/user/verify-email/{{token}}"
+        class="verify-button"
+      >Emailni tasdiqlash</a>
+      <p>Agar siz ro'yxatdan o'tmagan bo'lsangiz, iltimos, bu emailni e'tiborsiz
+        qoldiring.</p>
+    </div>
+  </body>
+</html>

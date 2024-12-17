@@ -1,0 +1,27 @@
+<div>dormitory-list</div>
+<table>
+    <head>
+        <tr>
+            <td>Ismi</td>
+            <td>Familiya</td>
+            <td>Guruh</td>
+            <td>telefon</td>
+            <td>Manzil</td>
+        </tr>
+        <style>
+            td {border:2px solid black}
+        </style>
+    </head>
+
+    <body>
+        {{#each dormitory-list}}
+        <tr id="dormitory-list-{{id}}">
+            <td>{{first_name}}</td>
+            <td>{{second_name}}</td>
+            <td>{{group_name}}</td>
+            <td>{{phone}}</td>
+            <td>{{address}}</td>
+        </tr>
+        {{/each}}
+    </body>
+</table>

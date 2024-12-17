@@ -1,0 +1,37 @@
+@use "../abstracts/variables" as vars;
+
+.header {
+    padding-top: 23px;
+    padding-bottom: 25px;
+    box-shadow: vars.$box_shadow_header;
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__title {
+        font: {
+            size: 24px;
+            weight: 900;
+        }
+        // font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    &__button {
+        display: flex;
+        align-items: center;
+        border: none;
+        color: vars.$black;
+        background-color: transparent;
+        cursor: pointer;
+        gap: 8px;
+        transition: transform .3s ease;
+        &:hover {
+            opacity: 80%;
+        }
+        &:active {
+            transform: scale(90%);
+        }
+    }
+}
+
+

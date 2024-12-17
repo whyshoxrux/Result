@@ -1,0 +1,141 @@
+Table categories{
+  category_id int(increment, pk)
+  category_name varchar
+  description varchar
+}
+
+Table products{
+  product_id int(increment, pk)
+  product_name varchar
+  supplier_id int
+  category_id int
+  quantity_per_unit varchar
+  unit_price int
+  units_in_stock int
+  units_on_order int
+  recorder_level int
+  discontinued int
+  }
+
+Table suppliers{
+  supplier_id int(increment, pk)
+  company_name varchar
+  contact_name varchar
+  contact_title varchar
+  address varchar
+  city varchar
+  region varchar
+  postal_code varchar
+  country varchar
+  phone varchar
+  fax varchar
+  homepage varchar
+ }
+
+Table order_details{
+  order_id int(increment, pk)
+  product_id int(increment, pk)
+  unit_price int
+  quantity int
+  discount int
+}
+
+Table orders{
+  order_id int(increment, pk)
+  customer_id varchar
+  employee_id int
+  order_date date
+  required_date date
+  shipper_id int
+  shipped_date date
+  ship_via int
+  freight int
+  ship_name varchar
+  ship_address varchar
+  ship_city varchar
+  ship_region varchar
+  ship_postal_code varchar
+  ship_country varchar
+}
+
+Table shippers{
+  shipper_id int(increment, pk)
+  company_name varchar
+  phone varchar
+}
+
+Table customers{
+  customer_id int(increment, pk)
+  company_name varchar
+  contact_name varchar
+  contact_title varchar
+  address varchar
+  city varchar
+  region varchar
+  postal_code varchar
+  country varchar
+  phone varchar
+  fax varchar
+}
+
+Table customer_customer_demo{
+  customer_id varchar
+  customer_type_id varchar
+}
+
+Table customer_demographics{
+  customer_type_id varchar
+  customer_desc varchar
+}
+
+Table employees{
+  employee_id int(increment, pk)
+  last_name varchar
+  first_name varchar
+  title varchar
+  title_of_courtesy varchar
+  birth_date date
+  hire_date date
+  address varchar
+  city varchar
+  region varchar
+  postal_code varchar
+  country varchar
+  home_phone varchar
+  extension varchar
+  notes varchar
+  reports_to int
+  photo_path varchar
+}
+
+Table employee_territories{
+  employee_id int(increment, pk)
+  territory_id int(increment, pk)
+}
+
+Table territories{
+  territory_id int(increment, pk)
+  territory_description varchar
+  region_id int
+}
+
+Table region{
+  region_id int(increment, pk)
+  region_description varchar
+}
+
+Ref: categories.category_id < products.category_id
+Ref: suppliers.supplier_id < products.supplier_id
+Ref: customers.customer_id < orders.customer_id
+Ref: employees.employee_id < orders.employee_id
+Ref: orders.order_id < order_details.order_id
+Ref: employees.employee_id < employee_territories.employee_id
+Ref: territories.territory_id < employee_territories.territory_id
+Ref: territories.region_id < region.region_id
+Ref: shippers.shipper_id < orders.shipper_id
+
+
+Ref: customers.customer_id <> customer_customer_demo.customer_id
+Ref: customer_customer_demo.customer_type_id <> customer_demographics.customer_type_id
+
+

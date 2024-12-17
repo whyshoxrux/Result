@@ -1,0 +1,31 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f9fa;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+  min-height: 100vh;
+  padding-top: 20px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  background-color: #495057;
+  border-radius: 5px;
+}
+
+.list-group-item {
+  background-color: #e9ecef;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}

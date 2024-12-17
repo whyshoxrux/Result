@@ -1,0 +1,186 @@
+-- 1-masala
+-- SELECT employees.employee_id, 
+-- 	employees.last_name, 
+-- 	employees.first_name,
+-- SUM(order_details.unit_price * order_details.quantity) AS total_sum
+-- FROM employees 
+-- LEFT JOIN orders ON	employees.employee_id = orders.employee_id
+-- LEFT JOIN order_details ON orders.order_id = order_details.order_id
+-- GROUP BY employees.employee_id,employees.last_name, employees.first_name
+-- ORDER BY total_sum
+
+
+
+
+
+
+
+
+-- 2-masala
+
+-- SELECT products.unit_price, products.product_name, 
+-- AVG(products.unit_price) AS average_price FROM products
+-- GROUP BY products.product_id, products.product_name
+-- ORDER BY average_price
+
+
+
+
+
+
+
+
+
+-- 3-masala
+
+-- SELECT customers.city, 
+-- SUM(order_details.unit_price * order_details.quantity) AS total_sum
+-- FROM customers
+-- LEFT JOIN orders ON customers.customer_id = orders.customer_id
+-- LEFT JOIN order_details ON orders.order_id = order_details.order_id
+-- GROUP BY customers.city
+-- ORDER BY total_sum
+
+
+
+
+
+
+
+
+-- 4-masala
+
+-- SELECT suppliers.company_name,
+-- 	products.product_name,
+-- 		AVG(products.unit_price) as average_price 
+-- FROM products
+-- RIGHT JOIN suppliers ON suppliers.supplier_id = products.product_id
+-- GROUP BY company_name, product_name
+-- ORDER BY average_price
+
+
+
+
+
+
+-- 5-masala
+
+-- SELECT products.product_id,
+-- 		products.product_name,
+-- SUM(order_details.quantity) AS total_sum FROM
+-- products
+-- LEFT JOIN 
+-- order_details
+-- ON
+-- products.product_id = order_details.product_id
+-- GROUP BY
+-- products.product_id,products.product_name
+-- ORDER BY
+-- total_sum
+
+
+
+
+
+
+
+
+-- 6-masala
+
+-- SELECT customers.city,
+-- AVG(order_details.unit_price * order_details.quantity) AS average FROM
+-- customers
+-- LEFT JOIN orders ON customers.customer_id = orders.customer_id
+-- LEFT JOIN order_details ON orders.order_id = order_details.order_id
+-- GROUP BY
+-- customers.city
+-- ORDER BY average
+
+
+
+
+
+
+
+
+
+-- 7-masala
+
+-- SELECT employees.employee_id,
+-- 	employees.first_name, 
+-- 	employees.last_name,
+-- SUM(order_details.unit_price * order_details.quantity) AS total_sum
+-- FROM
+-- employees
+-- LEFT JOIN orders ON employees.employee_id = orders.employee_id
+-- LEFT JOIN order_details ON orders.order_id = order_details.order_id
+-- GROUP BY
+-- employees.employee_id,
+-- employees.first_name,
+-- employees.last_name
+-- ORDER BY total_sum
+
+
+
+
+
+
+
+
+
+-- 8-masala
+
+
+-- SELECT products.product_id,
+-- products.product_name,
+-- SUM(order_details.unit_price * order_details.quantity) as total_sum
+-- FROM products
+-- LEFT JOIN
+-- order_details
+-- ON
+-- products.product_id = order_details.product_id
+-- GROUP BY products.product_id,
+-- products.product_name
+-- ORDER BY total_sum
+
+
+
+
+
+
+
+
+
+-- 9-masala
+
+
+-- SELECT EXTRACT(YEAR FROM orders.order_date) AS year,
+-- SUM(order_details.unit_price * order_details.quantity) AS total_sum
+-- FROM
+-- orders
+-- LEFT JOIN
+-- order_details
+-- ON
+-- orders.order_id = order_details.order_id
+-- GROUP BY year
+-- ORDER BY total_sum
+
+
+
+
+
+
+
+
+-- 10-masala
+
+
+-- SELECT customers.city,
+-- COUNT(order_details.order_id) as total_count,
+-- SUM(order_details.unit_price * order_details.quantity) AS total_sum
+-- FROM
+-- customers
+-- LEFT JOIN orders ON customers.customer_id = orders.customer_id
+-- LEFT JOIN order_details ON orders.order_id = order_details.order_id
+-- GROUP BY customers.city
+-- ORDER BY total_count, total_sum

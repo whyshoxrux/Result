@@ -1,0 +1,201 @@
+@use "../abstracts/variables" as vars;
+
+.main {
+    &__container {
+        &__header {
+            margin-top: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            &__search-input {
+                width: 480px;
+                height: 56px;
+                border: none;
+                border-radius: 5px;
+                background-color: vars.$white;
+                box-shadow: vars.$box_shadow;
+
+                &::placeholder {
+                    padding-left: 74px;
+                    font-size: 14px;
+                    font-weight: 300;
+                    font-family: "Nunito Sans";
+                }
+            }
+
+            &__dropdown {
+                position: relative;
+                display: inline-block;
+                font-family: Arial, sans-serif;
+
+                &__button {
+                    flex-direction: row-reverse;
+                    box-shadow: vars.$box_shadow;
+                    background-color: vars.$white;
+                    border: none;
+                    border-radius: 5px;
+                    padding: 10px 16px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    width: 200px;
+                    height: 56px;
+                    cursor: pointer;
+                    width: 180px;
+                    text-align: left;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    &:hover {
+                        background-color: vars.$dropdown-hover;
+                    }
+                }
+
+                &__menu {
+                    display: none;
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                    background-color: vars.$white;
+                    border: none;
+                    border-radius: 4px;
+                    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+                    margin: 4px 0;
+                    padding: 8px 0;
+                    list-style: none;
+                    width: 100%;
+                    z-index: 10;
+
+                    .dropdown-item {
+                        padding: 10px 16px;
+                        font-size: 16px;
+                        cursor: pointer;
+
+                        &:hover {
+                            background-color: vars.$dropdown-hover;
+                        }
+                    }
+                }
+
+                &.active .main__container__header__dropdown__menu {
+                    display: block;
+                }
+            }
+
+        }
+
+        &__main {
+            &__part {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: flex-start;
+                justify-content: space-between;
+                margin-top: 48px;
+
+                &__flags {
+                    margin-bottom: 27px;
+                    max-width: 264px;
+                    max-height: 336px;
+                    background-color: vars.$white;
+                    display: flex;
+                    flex-direction: column;
+                    text-decoration: none;
+                    border-radius: 5px;
+                    transition: transform 0.3s ease;
+                    box-shadow: vars.$box_shadow;
+
+                    &:hover {
+                        transform: scale(1.05);
+                    }
+
+                    img {
+                        border-radius: 5px;
+                        width: 100%;
+                        height: auto;
+                    }
+
+                    &__body {
+                        padding: 24px;
+
+                        &__title {
+                            max-width: 240px;
+                            margin-top: 16px;
+                            font-size: 18px;
+                            font-weight: 800;
+                            line-height: 26px;
+                            color: vars.$black
+                        }
+
+                        &__info {
+                            margin-top: 12px;
+                            display: flex;
+                            flex-direction: column;
+
+                            li {
+                                display: flex;
+                                gap: 7px;
+                                margin-bottom: 8px;
+
+                                h3 {
+                                    font-size: 14px;
+                                    font-weight: 600;
+                                    color: vars.$black;
+                                }
+
+                                p {
+                                    font-size: 14px;
+                                    font-weight: 300;
+                                    margin: 0;
+                                    color: vars.$black;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media (max-width: 1130px) {
+    .main__container__main__part {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .main__container__header {
+        flex-direction: column;
+        // align-items: center;
+        gap: 20px;
+    }
+
+    .main__container__header__search-input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .main__container__main__part {
+        grid-template-columns: 1fr;
+    }
+
+    .main__container__header {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .main__container__header__search-input {
+        width: 100%;
+    }
+
+    .header__button {
+        width: 100%;
+        text-align: center;
+    }
+}

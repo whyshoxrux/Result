@@ -1,0 +1,40 @@
+services:
+  sender:
+    build: ./gateway
+    container_name: sender-service
+    restart: always
+    depends_on:
+      - rabbitmq
+    ports:
+      - "3001:3001"
+    environment:
+      - RABBITMQ_URI=amqp://rabbitmq:5672
+    networks:
+      - app-network
+
+  receiver:
+    build: ./microservice
+    container_name: receiver-service
+    restart: always
+    depends_on:
+      - rabbitmq
+    environment:
+      - RABBITMQ_URI=amqp://rabbitmq:5672
+    networks:
+      - app-network
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

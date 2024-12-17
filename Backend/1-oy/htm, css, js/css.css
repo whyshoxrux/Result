@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#counter {
+    font-size: 3em;
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 2em;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#reset {
+    font-size: 1em;
+    padding: 10px 20px;
+    cursor: pointer;
+}

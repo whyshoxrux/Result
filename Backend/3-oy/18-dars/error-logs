@@ -1,0 +1,25 @@
+{"level":"error","message":"ataylab qilingan hato"}
+{"level":"error","message":"ataylab qilingan hato"}
+{"level":"error","message":"ataylab qilingan hato","timestamp":"2024-09-12T11:46:28.938Z"}
+{"level":"error","message":"ataylab qilingan hato","timestamp":"2024-09-12T11:49:27.691Z"}
+{"level":"error","message":"ataylab qilingan hato","timestamp":"2024-09-12T11:54:39.707Z","type":"unhandledRejection"}
+{"level":"error","message":"[object Object]","timestamp":"2024-09-12T12:02:11.456Z"}
+{"level":"error","message":"[object Object]","timestamp":"2024-09-12T12:02:55.676Z"}
+{"level":"error","message":"[object Object]","timestamp":"2024-09-12T12:03:21.877Z"}
+{"level":"error","message":"[object Object]","timestamp":"2024-09-12T12:03:36.617Z"}
+{"level":"error","message":"[object Object]","timestamp":"2024-09-12T12:03:50.144Z"}
+{"level":"error","message":"","timestamp":"2024-09-12T12:04:18.975Z"}
+{"level":"error","message":"\"email\" must be a valid email,","timestamp":"2024-09-12T12:04:28.486Z"}
+{"level":"error","message":"\"email\" must be a valid email,","timestamp":"2024-09-12T12:04:35.668Z"}
+{"level":"error","message":"\"password\" is required,","timestamp":"2024-09-12T12:05:00.886Z"}
+{"level":"error","message":"\"password\" is required,","timestamp":"2024-09-12T12:05:41.992Z"}
+{"level":"error","message":"\"password\" is required,","timestamp":"2024-09-12T12:05:52.932Z"}
+{"level":"error","message":"\"email\" must be a valid email,","timestamp":"2024-09-12T12:05:58.986Z"}
+{"level":"error","message":"\"second_name\" is required,","timestamp":"2024-09-12T12:06:15.161Z"}
+{"level":"error","message":"\"email\" must be a valid email,","timestamp":"2024-09-12T12:06:51.988Z"}
+{"level":"error","message":"\"password\" length must be at least 6 characters long,","timestamp":"2024-09-12T12:06:55.437Z"}
+{"level":"error","message":"Bunday email oldin royhatdan otgan","timestamp":"2024-09-12T13:36:32.690Z"}
+{"level":"error","message":"Bunday email oldin royhatdan otgan","timestamp":"2024-09-12T13:36:38.024Z"}
+{"level":"error","message":"Bunday email oldin royhatdan otgan","timestamp":"2024-09-12T13:36:44.073Z"}
+{"level":"error","message":"Bunday email oldin royhatdan otgan","timestamp":"2024-09-12T13:37:39.405Z"}
+{"level":"error","message":"\"email\" must be a valid email","timestamp":"2024-09-12T13:45:11.475Z"}

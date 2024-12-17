@@ -1,0 +1,36 @@
+<div>dormitory-list</div>
+<table>
+  <head>
+    <tr>
+      <td>Ismi</td>
+      <td>Familiya</td>
+      <td>guruh</td>
+      <td>telefon</td>
+      <td>manzil</td>
+      <td>harakatlar</td>
+    </tr>
+    <style>
+      td { border:2px solid black;}
+    </style>
+  </head>
+  <body>
+    {{#each dormitoryList}}
+      <tr id="dormitory-list-{{id}}">
+        <td>{{first_name}}</td>
+        <td>{{second_name}}</td>
+        <td>{{group_name}}</td>
+        <td>{{phone}}</td>
+        <td>{{from_place}}</td>
+        <td><button onclick="deleteDormitory({{id}})">ochirish</button></td>
+      </tr>
+    {{/each}}
+    <script>
+      async function deleteDormitory(id){ try{ const result = await
+      fetch(`http://localhost:4000/student/dormitory/${id}`, {method:
+      'DELETE'}); console.log('result', result); const elem =
+      document.getElementById(`dormitory-list-${id}`); if(elem){
+      elem.parentNode.removeChild(elem); } } catch(err){ console.log(`malumotni
+      ochirishda hatolik boldi`, err.message) } }
+    </script>
+  </body>
+</table>

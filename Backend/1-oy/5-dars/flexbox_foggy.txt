@@ -1,0 +1,18 @@
+display: flex
+justify content = elementlarni yon tomon yonalishga ozgartiradi
+        qiymatlari:
+                flex-start: boshiga
+                center: markazga
+                flex-end: oxiriga
+                space-between: 2 ta bosa ortasiga 
+                space-around: ikki chekkaga
+
+
+
+align-items = elementlarni tepa-past qilib ozgartiradi
+        qiymatlari:
+                flex-start: boshiga
+                center: ortasiga
+                flex-end: oxiriga
+                space-between: 2 ta bosa ortasiga
+                space-around: ikki chekkaga

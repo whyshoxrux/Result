@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Figma Practice</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./src/css/output.css" />
+</head>
+
+<body class="text-[#173A56]">
+  <!-- ! Header -->
+  <header class="container max-2xl:px-16 max-sm:px-6">
+    <!-- ? Navbar -->
+    <nav class="flex py-4 items-center justify-between">
+      <a class="text-2xl flex gap-2 font-bold" href="/">
+        <img class="w-8" src="./src/images/logo.svg" alt="logo" />
+        Product
+      </a>
+      <div class="flex items-center gap-10">
+        <ul id="nav"
+          class="flex max-lg:hidden max-lg:shadow-lg z-50 gap-6 max-lg:fixed top-0 bottom-0 right-0 max-lg:flex-col max-lg:px-5 max-lg:w-[250px] max-lg:py-10 max-lg:border-l border-primary-500 max-lg:bg-slate-100">
+          <li>
+            <button class="text-2xl lg:hidden" id="close-nav">
+              <i class="fa fa-times select-none pointer-events-none"></i>
+            </button>
+          </li>
+          <li>
+            <a href="#"> Product </a>
+          </li>
+          <li>
+            <a href="#"> Customers </a>
+          </li>
+          <li>
+            <a href="#"> Pricing </a>
+          </li>
+          <li>
+            <a href="#"> Resources </a>
+          </li>
+          <li class="w-full sm:hidden gap-2 flex justify-center absolute bottom-0 left-0 p-3">
+            <a href="#" class="w-1/2 border-2 text-center rounded py-2 font-bold">
+              Sign In
+            </a>
+            <a href="#" class="w-1/2 bg-primary-500 text-center text-white rounded py-2 font-bold">
+              Sign Up
+            </a>
+          </li>
+        </ul>
+        <div class="flex items-center gap-4">
+          <a href="#" class="max-sm:hidden px-7 border-2 rounded py-2 font-bold">
+            Sign In
+          </a>
+          <a href="#" class="max-sm:hidden btn-primary">
+            Sign Up
+          </a>
+          <button class="w-9 h-9 flex items-center justify-center rounded-full text-primary-500 text-xl bg-slate-200">
+            <i class="fa transform rotate-180 fa-circle-half-stroke"></i>
+          </button>
+          <button class="text-2xl lg:hidden" id="open-nav">
+            <i class="fa fa-bars select-none pointer-events-none"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- ? Hero -->
+    <div class="hero space-y-7 py-52"> 
+      <h1 class="text-4xl max-w-[350px]">Work at the speed of thought</h1>
+      <p class="max-w-[350px]">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way
+        to imagine your next user experience.</p>
+      <div class="space-x-5">
+        <button class="bg-primary-500 rounded text-white px-7 py-2">Get Started</button>
+        <button class="text-primary-500 space-x-1">
+          <i class="fa fa-play"></i>
+          Watch the Video
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ! Main -->
+  <main class="min-h-[70vh]"></main>
+
+  <!-- ! Footer -->
+  <footer class="container py-10 max-sm:px-5">
+    <!-- ? Grid block -->
+    <div class="grid grid-cols-4 max-lg:grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-2 gap-x-3 gap-y-6">
+      <!-- ? Block 1 -->
+      <div class="p-1">
+        <a class="text-2xl flex gap-2 font-bold" href="/">
+          <img class="w-8" src="./src/images/logo.svg" alt="logo" />
+          Product
+        </a>
+        <ul class="flex gap-5 mt-6">
+          <li>
+            <a href="https://instagram.com"
+              class="w-10 h-10 flex justify-center items-center rounded-full text-2xl text-primary-500 bg-primary-200">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://facebook.com"
+              class="w-10 h-10 flex justify-center items-center rounded-full text-2xl text-primary-500 bg-primary-200">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com"
+              class="w-10 h-10 flex justify-center items-center rounded-full text-2xl text-primary-500 bg-primary-200">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- ? Block 2 -->
+      <div class="p-1">
+        <h3 class="font-semibold text-xl">Resource</h3>
+        <ul class="mt-5 space-y-3">
+          <li>
+            <a href="#"> About Us </a>
+          </li>
+          <li>
+            <a href="#"> Blog </a>
+          </li>
+          <li>
+            <a href="#"> Contact </a>
+          </li>
+          <li>
+            <a href="#"> FAQ </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- ? Block 3 -->
+      <div class="p-1">
+        <h3 class="font-semibold text-xl">Legal Stuff</h3>
+        <ul class="mt-5 space-y-3">
+          <li>
+            <a href="#"> Disclaimer </a>
+          </li>
+          <li>
+            <a href="#"> Financing </a>
+          </li>
+          <li>
+            <a href="#"> Privacy Policy </a>
+          </li>
+          <li>
+            <a href="#"> Terms of Service </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- ? Block 4 -->
+      <form class="max-lg:col-span-4 max-md:col-span-1 p-1">
+        <h3 class="font-semibold text-xl">knowing you're always on the best energy deal.</h3>
+        <input type="email" name="email"
+          class="w-full border rounded focus:outline-primary-500 p-3 border-slate-400 shadow mt-8">
+        <button class="btn-primary mt-5">Sign up Now</button>
+      </form>
+    </div>
+    <p class="text-center mt-10">
+      Made With Love By Figmaland All Right Reserved
+    </p>
+  </footer>
+
+  <script src="./src/scripts/script.js"></script>
+</body>
+
+</html>

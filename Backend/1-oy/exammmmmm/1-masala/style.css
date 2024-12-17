@@ -1,0 +1,82 @@
+body {
+  background-color: #5858d8;
+}
+.quala {
+  position: fixed;
+  top: calc(50% - 150px);
+  left: calc(50% - 150px);
+  height: 100vh;
+  width: 100%;
+}
+.quala-head {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #8aa1cd;
+  position: relative;
+}
+.quala-left-ear {
+  position: absolute;
+  left: -60px;
+  top: 10px;
+  z-index: -1;
+}
+.quala-right-ear {
+  position: absolute;
+  right: -60px;
+  top: 10px;
+  z-index: -1;
+}
+.quala-ear {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background-color: #8aa1cd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quala-ear-black {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: #434f66;
+}
+
+.quala-left-eye {
+  position: absolute;
+  top: 70px;
+  z-index: 11;
+  left: calc(50% - 90px);
+}
+.quala-right-eye {
+  position: absolute;
+  top: 70px;
+  z-index: 11;
+  right: calc(50% - 90px);
+}
+.quala-eye {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quala-eye-center {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+}
+.quala-nose {
+  width: 70px;
+  height: 110px;
+  border-radius: 35px;
+  background-color: #755529;
+  position: absolute;
+  top: 140px;
+  z-index: 11;
+  left: calc(50% - 35px);
+}

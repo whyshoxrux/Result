@@ -1,0 +1,8 @@
+{"level":"error","message":"ini is not defined","timestamp":"2024-09-13T06:58:25.762Z","type":"unhandledRejection"}
+{"level":"error","message":"\"first_name\" is required","timestamp":"2024-09-13T07:10:00.518Z"}
+{"level":"error","message":"\"first_name\" is required","timestamp":"2024-09-13T07:11:22.641Z"}
+{"level":"error","message":"\"first_name\" is required","timestamp":"2024-09-13T07:11:42.517Z"}
+{"level":"error","message":"Bunday email oldin ro'yxatdan o'tgan","timestamp":"2024-09-13T07:12:50.210Z"}
+{"level":"error","message":"column \"email\" does not exist","timestamp":"2024-09-16T09:28:36.749Z"}
+{"level":"error","message":"relation \"users\" does not exist","timestamp":"2024-09-16T09:30:00.147Z"}
+{"level":"error","message":"relation \"users\" does not exist","timestamp":"2024-09-16T09:30:14.145Z"}

@@ -1,0 +1,45 @@
+{"level":"error","message":"ataylab qilingan hato"}
+{"level":"error","message":"ataylab qilingan hato"}
+{"level":"error","message":"ataylab qilingan hato","timestamp":"2024-09-12T11:46:28.938Z"}
+{"level":"error","message":"ataylab qilingan hato","timestamp":"2024-09-12T11:49:27.691Z"}
+{"level":"error","message":"ataylab qilingan hato","timestamp":"2024-09-12T11:54:39.707Z","type":"unhandledRejection"}
+{"level":"error","message":"[object Object]","timestamp":"2024-09-12T12:02:11.456Z"}
+{"level":"error","message":"[object Object]","timestamp":"2024-09-12T12:02:55.676Z"}
+{"level":"error","message":"[object Object]","timestamp":"2024-09-12T12:03:21.877Z"}
+{"level":"error","message":"[object Object]","timestamp":"2024-09-12T12:03:36.617Z"}
+{"level":"error","message":"[object Object]","timestamp":"2024-09-12T12:03:50.144Z"}
+{"level":"error","message":"","timestamp":"2024-09-12T12:04:18.975Z"}
+{"level":"error","message":"\"email\" must be a valid email,","timestamp":"2024-09-12T12:04:28.486Z"}
+{"level":"error","message":"\"email\" must be a valid email,","timestamp":"2024-09-12T12:04:35.668Z"}
+{"level":"error","message":"\"password\" is required,","timestamp":"2024-09-12T12:05:00.886Z"}
+{"level":"error","message":"\"password\" is required,","timestamp":"2024-09-12T12:05:41.992Z"}
+{"level":"error","message":"\"password\" is required,","timestamp":"2024-09-12T12:05:52.932Z"}
+{"level":"error","message":"\"email\" must be a valid email,","timestamp":"2024-09-12T12:05:58.986Z"}
+{"level":"error","message":"\"second_name\" is required,","timestamp":"2024-09-12T12:06:15.161Z"}
+{"level":"error","message":"\"email\" must be a valid email,","timestamp":"2024-09-12T12:06:51.988Z"}
+{"level":"error","message":"\"password\" length must be at least 6 characters long,","timestamp":"2024-09-12T12:06:55.437Z"}
+{"level":"error","message":"Bunday email oldin royhatdan otgan","timestamp":"2024-09-12T13:36:32.690Z"}
+{"level":"error","message":"Bunday email oldin royhatdan otgan","timestamp":"2024-09-12T13:36:38.024Z"}
+{"level":"error","message":"Bunday email oldin royhatdan otgan","timestamp":"2024-09-12T13:36:44.073Z"}
+{"level":"error","message":"Bunday email oldin royhatdan otgan","timestamp":"2024-09-12T13:37:39.405Z"}
+{"level":"error","message":"\"email\" must be a valid email","timestamp":"2024-09-12T13:45:11.475Z"}
+{"level":"error","message":"callback function required","timestamp":"2024-09-16T11:34:33.636Z","type":"unhandledRejection"}
+{"level":"error","message":"callback function required","timestamp":"2024-09-16T11:34:49.311Z","type":"unhandledRejection"}
+{"level":"error","message":"callback function required","timestamp":"2024-09-16T11:35:20.843Z","type":"unhandledRejection"}
+{"level":"error","message":"callback function required","timestamp":"2024-09-16T11:35:35.943Z","type":"unhandledRejection"}
+{"level":"error","message":"\"role\" is not allowed","timestamp":"2024-09-16T11:52:08.622Z"}
+{"level":"error","message":"Kalit berilmagan","timestamp":"2024-09-16T12:01:10.281Z"}
+{"level":"error","message":"jwt malformed","timestamp":"2024-09-16T12:01:18.031Z"}
+{"level":"error","message":"\"first_name\" is required","timestamp":"2024-09-16T12:10:54.244Z"}
+{"level":"error","message":"Kalit berilmagan","timestamp":"2024-09-16T12:11:51.154Z"}
+{"level":"error","message":"Bu sahifaga huquqingiz yetarli emas","timestamp":"2024-09-16T12:11:58.776Z"}
+{"level":"error","message":"\"email\" is required","timestamp":"2024-09-16T13:26:44.333Z"}
+{"level":"error","message":"\"email\" is required","timestamp":"2024-09-16T13:27:18.613Z"}
+{"level":"error","message":"\"email\" is required","timestamp":"2024-09-16T13:27:23.828Z"}
+{"level":"error","message":"\"email\" is required","timestamp":"2024-09-16T13:28:13.088Z"}
+{"level":"error","message":"Kalit berilmagan","timestamp":"2024-09-16T13:36:58.958Z"}
+{"level":"error","message":"Kalit berilmagan","timestamp":"2024-09-16T13:37:38.257Z"}
+{"level":"error","message":"Email yoki parol hato","timestamp":"2024-09-16T13:42:08.032Z"}
+{"level":"error","message":"Email yoki parol hato","timestamp":"2024-09-16T13:42:09.678Z"}
+{"level":"error","message":"invalid token","timestamp":"2024-09-16T13:45:15.578Z"}
+{"level":"error","message":"invalid token","timestamp":"2024-09-16T13:45:33.479Z"}

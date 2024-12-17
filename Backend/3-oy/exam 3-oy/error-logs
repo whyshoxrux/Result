@@ -1,0 +1,102 @@
+{"level":"error","message":"cors is not defined","timestamp":"2024-09-17T07:20:58.022Z","type":"unhandledRejection"}
+{"level":"error","message":"next is not defined","timestamp":"2024-09-17T13:27:17.657Z","type":"unhandledRejection"}
+{"level":"error","message":"next is not defined","timestamp":"2024-09-17T13:27:51.945Z","type":"unhandledRejection"}
+{"level":"error","message":"err is not defined","timestamp":"2024-09-17T13:33:51.219Z","type":"unhandledRejection"}
+{"level":"error","message":"err is not defined","timestamp":"2024-09-17T13:34:24.510Z","type":"unhandledRejection"}
+{"level":"error","message":"Parolda katta harf bo'lishi shart","timestamp":"2024-09-17T13:38:31.163Z"}
+{"level":"error","message":"\"confirmPassword\" is required","timestamp":"2024-09-17T13:39:02.960Z"}
+{"level":"error","message":"\"role\" must be one of [ADMIN, USER, SELLER]","timestamp":"2024-09-17T13:39:14.890Z"}
+{"level":"error","message":"\"status\" is not allowed","timestamp":"2024-09-17T13:39:25.631Z"}
+{"level":"error","message":"hbs is not defined","timestamp":"2024-09-17T13:39:57.096Z"}
+{"level":"error","message":"Bunday email oldin royhatdan otgan","timestamp":"2024-09-17T13:40:45.133Z"}
+{"level":"error","message":"result is not defined","timestamp":"2024-09-17T13:43:23.841Z"}
+{"level":"error","message":"next is not defined","timestamp":"2024-09-17T14:02:55.209Z","type":"unhandledRejection"}
+{"level":"error","message":"insert or update on table \"orders\" violates foreign key constraint \"orders_book_id_fkey\"","timestamp":"2024-09-17T14:08:31.643Z"}
+{"level":"error","message":"err is not defined","timestamp":"2024-09-17T14:10:19.410Z","type":"unhandledRejection"}
+{"level":"error","message":"Bunday email oldin royhatdan otgan","timestamp":"2024-09-17T14:11:56.432Z"}
+{"level":"error","message":"Email jo'natishda xatolik","timestamp":"2024-09-17T14:12:54.614Z"}
+{"level":"error","message":"Bunday email oldin royhatdan otgan","timestamp":"2024-09-17T14:13:58.913Z"}
+{"level":"error","message":"duplicate key value violates unique constraint \"users_email_key\"","timestamp":"2024-09-17T14:15:10.907Z"}
+{"level":"error","message":"duplicate key value violates unique constraint \"users_email_key\"","timestamp":"2024-09-17T14:16:42.520Z"}
+{"level":"error","message":"result is not defined","timestamp":"2024-09-17T14:16:46.905Z"}
+{"level":"error","message":"duplicate key value violates unique constraint \"users_email_key\"","timestamp":"2024-09-17T14:17:04.358Z"}
+{"level":"error","message":"duplicate key value violates unique constraint \"users_email_key\"","timestamp":"2024-09-17T14:20:12.935Z"}
+{"level":"error","message":"null value in column \"user_id\" of relation \"orders\" violates not-null constraint","timestamp":"2024-09-17T14:48:37.761Z"}
+{"level":"error","message":"null value in column \"user_id\" of relation \"orders\" violates not-null constraint","timestamp":"2024-09-17T14:48:47.097Z"}
+{"level":"error","message":"null value in column \"user_id\" of relation \"orders\" violates not-null constraint","timestamp":"2024-09-17T14:49:22.807Z"}
+{"level":"error","message":"null value in column \"user_id\" of relation \"orders\" violates not-null constraint","timestamp":"2024-09-17T14:49:25.208Z"}
+{"level":"error","message":"\"name\" is required","timestamp":"2024-09-17T14:51:58.686Z"}
+{"level":"error","message":"\"status\" is required","timestamp":"2024-09-17T15:49:48.315Z"}
+{"level":"error","message":"Kalit berilmagan","timestamp":"2024-09-17T15:50:41.495Z"}
+{"level":"error","message":"Kalit berilmagan","timestamp":"2024-09-17T15:50:53.356Z"}
+{"level":"error","message":"duplicate key value violates unique constraint \"users_email_key\"","timestamp":"2024-09-17T15:52:26.649Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:44:47.568Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:45:43.761Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:45:57.314Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:46:05.665Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:46:12.069Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:46:40.996Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:47:57.085Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:47:58.344Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:48:08.330Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:48:17.586Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:48:19.074Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:48:20.261Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:48:39.303Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:48:40.226Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:48:52.771Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:48:59.873Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:49:01.206Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:49:09.758Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:49:40.219Z"}
+{"level":"error","message":"jwt expired","timestamp":"2024-09-17T16:52:24.323Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:53:34.817Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:53:35.854Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:53:36.625Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:53:37.372Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:53:45.621Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:53:46.488Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:53:52.472Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:53:53.167Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:53:58.756Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:53:59.502Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:57:09.021Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:57:39.373Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:58:09.773Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:58:20.293Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:59:23.687Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:59:41.293Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T16:59:45.683Z"}
+{"level":"error","message":"Kalit berilmagan","timestamp":"2024-09-17T17:00:23.321Z"}
+{"level":"error","message":"Kalit berilmagan","timestamp":"2024-09-17T17:01:36.119Z"}
+{"level":"error","message":"Kalit berilmagan","timestamp":"2024-09-17T17:01:37.474Z"}
+{"level":"error","message":"Kalit berilmagan","timestamp":"2024-09-17T17:01:55.697Z"}
+{"level":"error","message":"Kalit berilmagan","timestamp":"2024-09-17T17:02:25.833Z"}
+{"level":"error","message":"Bu sahifaga huquqingiz yetarli emas","timestamp":"2024-09-17T17:05:04.582Z"}
+{"level":"error","message":"jwt malformed","timestamp":"2024-09-17T17:11:03.916Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'role')","timestamp":"2024-09-17T17:13:52.205Z"}
+{"level":"error","message":"Bu sahifaga huquqingiz yetarli emas","timestamp":"2024-09-17T17:17:35.685Z"}
+{"level":"error","message":"jwt expired","timestamp":"2024-09-17T17:33:03.448Z"}
+{"level":"error","message":"Kalit berilmagan","timestamp":"2024-09-17T17:33:21.729Z"}
+{"level":"error","message":"Email jo'natishda xatolik","timestamp":"2024-09-17T17:33:53.902Z"}
+{"level":"error","message":"duplicate key value violates unique constraint \"users_email_key\"","timestamp":"2024-09-17T17:34:16.562Z"}
+{"level":"error","message":"duplicate key value violates unique constraint \"users_email_key\"","timestamp":"2024-09-17T17:34:49.286Z"}
+{"level":"error","message":"duplicate key value violates unique constraint \"users_email_key\"","timestamp":"2024-09-17T17:44:08.241Z"}
+{"level":"error","message":"duplicate key value violates unique constraint \"users_email_key\"","timestamp":"2024-09-18T06:01:04.324Z"}
+{"level":"error","message":"jwt expired","timestamp":"2024-09-18T06:01:13.485Z"}
+{"level":"error","message":"Kalit berilmagan","timestamp":"2024-09-18T06:02:20.923Z"}
+{"level":"error","message":"emailConfirmationToken is not defined","timestamp":"2024-09-18T06:03:08.497Z"}
+{"level":"error","message":"duplicate key value violates unique constraint \"users_email_key\"","timestamp":"2024-09-18T06:09:28.020Z"}
+{"level":"error","message":"Email jo'natishda xatolik","timestamp":"2024-09-18T06:09:52.764Z"}
+{"level":"error","message":"duplicate key value violates unique constraint \"users_email_key\"","timestamp":"2024-09-18T06:11:13.408Z"}
+{"level":"error","message":"Email jo'natishda xatolik","timestamp":"2024-09-18T06:11:39.977Z"}
+{"level":"error","message":"hbs is not defined","timestamp":"2024-09-18T06:13:38.448Z"}
+{"level":"error","message":"Email jo'natishda xatolik","timestamp":"2024-09-18T06:14:32.015Z"}
+{"level":"error","message":"Email jo'natishda xatolik","timestamp":"2024-09-18T06:17:01.971Z"}
+{"level":"error","message":"Email jo'natishda xatolik","timestamp":"2024-09-18T06:19:14.213Z"}
+{"level":"error","message":"Email jo'natishda xatolik","timestamp":"2024-09-18T06:21:17.722Z"}
+{"level":"error","message":"duplicate key value violates unique constraint \"users_email_key\"","timestamp":"2024-09-18T06:35:20.648Z"}
+{"level":"error","message":"duplicate key value violates unique constraint \"users_email_key\"","timestamp":"2024-09-30T09:44:52.035Z"}
+{"level":"error","message":"jwt expired","timestamp":"2024-09-30T09:45:00.766Z"}
+{"level":"error","message":"duplicate key value violates unique constraint \"users_email_key\"","timestamp":"2024-09-30T09:45:45.640Z"}
+{"level":"error","message":"duplicate key value violates unique constraint \"users_email_key\"","timestamp":"2024-09-30T09:45:46.816Z"}
